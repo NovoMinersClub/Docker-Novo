@@ -4,7 +4,7 @@
 
 FROM ubuntu:20.04
 
-LABEL maintainer="code@radiant4people.com"
+LABEL maintainer="novominersclub@gmail.com"
 LABEL version="1.0.0"
 LABEL description="Docker image for electrumx and novo node"
 
@@ -83,7 +83,7 @@ WORKDIR /root
 
 # ORIGINAL SOURCE
 #RUN git clone https://github.com/3untz/novo-electrumx.git
-RUN git clone https://github.com/expiredhotdog/novo-electrumx
+RUN git clone https://github.com/NovoMinersClub/novo-electrumx
 
 WORKDIR /root/novo-electrumx
 
